@@ -89,8 +89,8 @@
 </br>
 
 ## Week 12
-### Class 22 -- 
-### Class 23 --
+### Class 22 -- Generative Models
+### Class 23 -- Generative Models
 * Quiz
 
 </br>
