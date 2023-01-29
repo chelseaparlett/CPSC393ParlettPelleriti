@@ -6,7 +6,7 @@
 ## Lecture: TTh 11:30am-12:15pm (02)
 ## Office Hours: M 10am-11am (ZOOM), TTh 10am-11:30am, W 1:30-2:30pm, 6-7pm (ZOOM)
 (if you cannot make office hours, and need to schedule a meeting with me outside of class and office hours, please make sure to give sufficiently advance notice.)
-<img src="https://drive.google.com/uc?export=view&id=18P6vWbrwrRjoKe30IZ6DDtsJt55oYact" alt="Q" style="width: 200px;"/>
+<img src="https://drive.google.com/uc?export=view&id=18P6vWbrwrRjoKe30IZ6DDtsJt55oYact" alt="Q"/>
 
 ## INSTALLS
 
