@@ -41,6 +41,12 @@ Videos, blogs, and articles that cover topics we talk about in class.
 - [3Blue1Brown Neural Network Playlist](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 - [Code Emporium: Gradient Descent, the Math You Should Know](https://youtu.be/-p1ldISb90Q)
 - [Machine Learning University: Double Descent A Visual Introduction](https://mlu-explain.github.io/double-descent/)
+- [Geeks for Geeks: Intuition of Adam Optimizer](https://www.geeksforgeeks.org/intuition-of-adam-optimizer/)
+- [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
+- [Code Emporium: Optimizers](https://www.youtube.com/watch?v=mdKjMPmcWjY)
+- [Ruder.io: An Overview of Gradient Descent Optimization Algorithms](https://www.ruder.io/optimizing-gradient-descent/#challenges)
+- [Louis Tiao: Visualizing and Animating Optimization Algorithms with Matplotlib](http://louistiao.me/notes/visualizing-and-animating-optimization-algorithms-with-matplotlib/)
+- [Machine Learning Mastery: Adam Optimizer from Scratch](https://machinelearningmastery.com/adam-optimization-from-scratch/)
 
 ### Convolutional Neural Networks
 - [3Blue1Brown What is Convolution?](https://youtu.be/KuXjwB4LzSA)
@@ -50,6 +56,7 @@ Videos, blogs, and articles that cover topics we talk about in class.
 
 ### Recurrent Neural Networks
 - [StatQuest: Recurrent Neural Networks Clearly Explained](https://youtu.be/AsNTP8Kwu80)
+- [Michael Phi: Illustrated Guide to Recurrent Neural Networks](https://www.youtube.com/watch?v=LHXXI4-IEns)
 
 ### LSTMs and GRUs
 - [Understanding LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
