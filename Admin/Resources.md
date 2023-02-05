@@ -27,6 +27,7 @@ Videos, blogs, and articles that cover topics we talk about in class.
 - [CodeEmporium: The Kernel Trick - THE MATH YOU SHOULD KNOW!](https://www.youtube.com/watch?v=wBVSbVktLIY)
 - [StatQuest SVM Playlist](https://www.youtube.com/playlist?list=PLblh5JKOoLUL3IJ4-yor0HzkqDQ3JmJkc)
 - [Lagrangian Formulation of SVMs](http://sfb649.wiwi.hu-berlin.de/fedc_homepage/xplore/tutorials/stfhtmlnode64.html)
+- [Kernel Methods (book chapter)](https://people.eecs.berkeley.edu/~jordan/kernels/0521813972c02_p25-46.pdf)
 
 
 ### Neural Networks and Optimization
