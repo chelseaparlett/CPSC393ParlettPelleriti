@@ -29,8 +29,8 @@
 
 
 ## Week 4
-### Class 6 -- Keras + Tensorflow Introduction (Chapter 3, 6, 7)
-### Class 7 -- Neural Networks and Optimization (Chapters 2, 4)
+### Class 6 -- Neural Networks and Optimization (Chapters 2, 4)
+### Class 7 -- Keras + Tensorflow Introduction (Chapter 3, 6, 7)
 * Quiz
 
 </br>
