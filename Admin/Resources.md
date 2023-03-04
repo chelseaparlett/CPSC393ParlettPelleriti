@@ -48,12 +48,16 @@ Videos, blogs, and articles that cover topics we talk about in class.
 - [Ruder.io: An Overview of Gradient Descent Optimization Algorithms](https://www.ruder.io/optimizing-gradient-descent/#challenges)
 - [Louis Tiao: Visualizing and Animating Optimization Algorithms with Matplotlib](http://louistiao.me/notes/visualizing-and-animating-optimization-algorithms-with-matplotlib/)
 - [Machine Learning Mastery: Adam Optimizer from Scratch](https://machinelearningmastery.com/adam-optimization-from-scratch/)
+- [Three Ways to Build Machine Learning Models in Keras](https://machinelearningmastery.com/three-ways-to-build-machine-learning-models-in-keras/)
+- [Kernel, Bias and Activity RegulizerL what, when, and why](https://www.linkedin.com/pulse/kernel-bias-activity-regularizer-what-when-why-chiranjit-pathak)
+- [StackOverflow: What is the difference between Kernel, Bias, and Activity Regulizers?](https://stats.stackexchange.com/questions/383310/what-is-the-difference-between-kernel-bias-and-activity-regulizers-and-when-t)
 
 ### Convolutional Neural Networks
 - [3Blue1Brown What is Convolution?](https://youtu.be/KuXjwB4LzSA)
 - [A Review of Different Interpretation Methods in CNNs](https://mrsalehi.medium.com/a-review-of-different-interpretation-methods-in-deep-learning-part-1-saliency-map-cam-grad-cam-3a34476bc24d)
 - [Skip Connections](https://theaisummer.com/skip-connections/)
 - [Code Emporium: Convolutional Neural Networks Explained!](https://youtu.be/m8pOnJxOcqY)
+- [CS231n Convolutional Neural Network Notes](https://cs231n.github.io/convolutional-networks/)
 
 ### Recurrent Neural Networks
 - [StatQuest: Recurrent Neural Networks Clearly Explained](https://youtu.be/AsNTP8Kwu80)
