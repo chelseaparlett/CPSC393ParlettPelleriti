@@ -59,6 +59,8 @@ Videos, blogs, and articles that cover topics we talk about in class.
 - [Code Emporium: Convolutional Neural Networks Explained!](https://youtu.be/m8pOnJxOcqY)
 - [CS231n Convolutional Neural Network Notes](https://cs231n.github.io/convolutional-networks/)
 - [Geeks for Geeks: Depthwise Separable Convolutions](https://www.geeksforgeeks.org/depth-wise-separable-convolutional-neural-networks/)
+- [Machine Learning Mastery: Depthwise Separable Convolutions in Tensorflow](https://machinelearningmastery.com/using-depthwise-separable-convolutions-in-tensorflow/)
+- [Code Emporium: Depthwise Separable Convolutions](https://www.youtube.com/watch?v=T7o3xvJLuHk)
 
 ### Recurrent Neural Networks
 - [StatQuest: Recurrent Neural Networks Clearly Explained](https://youtu.be/AsNTP8Kwu80)
