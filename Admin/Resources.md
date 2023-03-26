@@ -10,6 +10,7 @@ These books are some of my favorite references for the topics we cover. These ar
 - [Pattern Recognition and Machine Learning](https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738)
 - [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
 - [Probabilistic Machine Learning](https://probml.github.io/pml-book/)
+- [Dive into Deep Learning](https://d2l.ai/index.html)
 
 ## Course Topics
 
@@ -62,9 +63,16 @@ Videos, blogs, and articles that cover topics we talk about in class.
 - [Machine Learning Mastery: Depthwise Separable Convolutions in Tensorflow](https://machinelearningmastery.com/using-depthwise-separable-convolutions-in-tensorflow/)
 - [Code Emporium: Depthwise Separable Convolutions](https://www.youtube.com/watch?v=T7o3xvJLuHk)
 
+### Autoencoders
+- [Jeremy Jordan: Autoencoders](https://www.jeremyjordan.me/autoencoders/)
+- [Geeks for Geeks: Contractive Autoencoders](https://www.geeksforgeeks.org/contractive-autoencoder-cae/)
+
 ### Recurrent Neural Networks
 - [StatQuest: Recurrent Neural Networks Clearly Explained](https://youtu.be/AsNTP8Kwu80)
 - [Michael Phi: Illustrated Guide to Recurrent Neural Networks](https://www.youtube.com/watch?v=LHXXI4-IEns)
+- [Paperspace: Advanced Recurrent Neural Networks: Bidirectional RNNs](https://blog.paperspace.com/bidirectional-rnn-keras/)
+- [Dive Into Deep Learning: Bidirectional RNNs](https://d2l.ai/chapter_recurrent-modern/bi-rnn.html)
+- [Machine Learning Mastery: 1D Convolutional NN for Timer Series Data](https://machinelearningmastery.com/how-to-develop-convolutional-neural-network-models-for-time-series-forecasting/)
 
 ### LSTMs and GRUs
 - [Understanding LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
@@ -94,6 +102,7 @@ Videos, blogs, and articles that cover topics we talk about in class.
 - [Human-Like Playtesting with Deep Learning (Candy Crush)](https://ieeexplore.ieee.org/document/8490442)
 - [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/)
 - [Pervasive Attention: 2D Convolutional Neural Networks for Sequence-to-Sequence Prediction](https://arxiv.org/abs/1808.03867)
+- [Jacobian vs. Hessian vs. Gradient](https://carmencincotti.com/2022-08-15/the-jacobian-vs-the-hessian-vs-the-gradient/)
 
 ### Data Sources
 - [Sebastian Raschka: Datasets for DL and ML](https://sebastianraschka.com/blog/2021/ml-dl-datasets.html)
