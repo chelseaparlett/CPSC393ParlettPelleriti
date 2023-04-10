@@ -80,6 +80,7 @@ Videos, blogs, and articles that cover topics we talk about in class.
 - [LSTMs with PyTorch](https://www.youtube.com/watch?v=RHGiXPuo_pI)
 - [StatQuest LSTM's Clearly Explained](https://www.youtube.com/watch?v=YCzL96nL7j0)
 - [Code Emporium: LSTM Networks Explained!](https://youtu.be/QciIcRxJvsM)
+- [Learning Phrase Representation using RNN Encoder-Decoder for Statistical Machine Translation (The GRU paper)](https://aclanthology.org/D14-1179.pdf)
 
 ### Transformers
 - [Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
@@ -90,6 +91,10 @@ Videos, blogs, and articles that cover topics we talk about in class.
 - [Neural machine translation with a Transformer and Keras](https://www.tensorflow.org/text/tutorials/transformer)
 - [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
 - [Code Emporium: Transformer NNs an Overview](https://youtu.be/O3xbVmpdJwU)
+- [StackOverflow: What is Positional Encoding?](https://datascience.stackexchange.com/questions/51065/what-is-the-positional-encoding-in-the-transformer-model)
+- [Cross Attention in Transformer Architechture](https://vaclavkosar.com/ml/cross-attention-in-transformer-architecture)
+- [Deep Learning Math: 8 Sequence Models](https://deeplearningmath.org/sequence-models.html)
+- [Keras Blog: A 10 minute Introduction to Sequence to Sequence learning in Keras](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html)
 
 ### Generative Models
 - [Tutorial on Variational AutoEncoders](https://arxiv.org/abs/1606.05908)
