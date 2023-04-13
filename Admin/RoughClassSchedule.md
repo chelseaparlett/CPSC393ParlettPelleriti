@@ -90,13 +90,13 @@
 
 ## Week 12
 ### Class 22 -- Generative Models (Chapter 12)
-### Class 23 -- Generative Models (Chapter 12)
+### Class 23 -- Topics in Deep Learning 
 * Quiz
 
 </br>
 
 ## Week 13
-### Class 24 -- Topics in Deep Learning
+### Class 24 -- Generative Models (Chapter 12)
 ### Class 25 -- Review + Project
 * Quiz
 
