@@ -101,6 +101,11 @@ Videos, blogs, and articles that cover topics we talk about in class.
 - [Tensorflow: Deep Convolutional GAN](https://www.tensorflow.org/tutorials/generative/dcgan)
 - [Code Emporium: GANs](https://youtu.be/O8LAi6ksC80)
 - [Computerphile: How AI Image Generators Work (Stable Diffusion/ DALL-E)](https://www.youtube.com/watch?v=1CIpzeNxIhU)
+- [Jeremy Jordan: Variational Autoencoders](https://www.jeremyjordan.me/variational-autoencoders/)
+- [Neptune AI: GAN Loss Functions](https://neptune.ai/blog/gan-loss-functionsert4)
+- [Google: GAN Loss](https://developers.google.com/machine-learning/gan/loss)
+- [Goodfellow NeurIPS GANs Talk](https://www.youtube.com/watch?v=9JpdAg6uMXs)
+- [GAN Training Hacks](https://github.com/soumith/ganhacks)
 
 ### Other
 - [The Illustrated word2vec](https://jalammar.github.io/illustrated-word2vec/)
