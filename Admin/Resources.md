@@ -62,6 +62,10 @@ Videos, blogs, and articles that cover topics we talk about in class.
 - [Geeks for Geeks: Depthwise Separable Convolutions](https://www.geeksforgeeks.org/depth-wise-separable-convolutional-neural-networks/)
 - [Machine Learning Mastery: Depthwise Separable Convolutions in Tensorflow](https://machinelearningmastery.com/using-depthwise-separable-convolutions-in-tensorflow/)
 - [Code Emporium: Depthwise Separable Convolutions](https://www.youtube.com/watch?v=T7o3xvJLuHk)
+- [Backpropagation In Convolutional Neural Networks](https://www.jefkine.com/general/2016/09/05/backpropagation-in-convolutional-neural-networks/)
+- [Deconvolution and Checkerboard Artifacts](https://distill.pub/2016/deconv-checkerboard/)
+- [Grad-CAM: Visual Explanations from Deep Networks via Gradient Based Localization](https://arxiv.org/pdf/1610.02391.pdf)
+- [Explaining and Harnessing Adversarial Examples](https://arxiv.org/pdf/1412.6572.pdf)
 
 ### Autoencoders
 - [Jeremy Jordan: Autoencoders](https://www.jeremyjordan.me/autoencoders/)
@@ -102,10 +106,11 @@ Videos, blogs, and articles that cover topics we talk about in class.
 - [Code Emporium: GANs](https://youtu.be/O8LAi6ksC80)
 - [Computerphile: How AI Image Generators Work (Stable Diffusion/ DALL-E)](https://www.youtube.com/watch?v=1CIpzeNxIhU)
 - [Jeremy Jordan: Variational Autoencoders](https://www.jeremyjordan.me/variational-autoencoders/)
-- [Neptune AI: GAN Loss Functions](https://neptune.ai/blog/gan-loss-functionsert4)
+- [Neptune AI: GAN Loss Functions](https://neptune.ai/blog/gan-loss-functions)
 - [Google: GAN Loss](https://developers.google.com/machine-learning/gan/loss)
 - [Goodfellow NeurIPS GANs Talk](https://www.youtube.com/watch?v=9JpdAg6uMXs)
 - [GAN Training Hacks](https://github.com/soumith/ganhacks)
+- [Understand the Theory and Math of GANs](https://www.youtube.com/watch?v=J1aG12dLo4I&list=RDQMb2AljskFCNk&index=8)
 
 ### Other
 - [The Illustrated word2vec](https://jalammar.github.io/illustrated-word2vec/)
