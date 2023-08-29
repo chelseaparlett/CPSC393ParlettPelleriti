@@ -1,16 +1,18 @@
 # CPSC 393| Machine Learning
-# Spring '23
+# Fall '23
 # Syllabus
 
 ## Instructor: Dr. Chelsea Parlett-Pelleriti (cparlett@chapman.edu)
 ## Lecture: TTh 11:30am-12:15pm (02)
-## Office Hours: M 10am-11am (ZOOM), TTh 10am-11:30am, W 1:30-2:30pm, 6-7pm (ZOOM)
+
+## Office Hours: 
+### M 10am-11:30am (ZOOM), T 2:15-3:15pm (IN-PERSON), W 1:30-2:30pm (IN-PERSON) and 6-7pm (ZOOM), Th 10-11:30am (IN-PERSON)
+<img src="https://drive.google.com/uc?export=view&id=1OYIiIahZ0t0-pm4ucIfYYG3uciacd_kZ" alt="Q"/>
 (if you cannot make office hours, and need to schedule a meeting with me outside of class and office hours, please make sure to give sufficiently advance notice.)
-<img src="https://drive.google.com/uc?export=view&id=18P6vWbrwrRjoKe30IZ6DDtsJt55oYact" alt="Q"/>
 
 ## INSTALLS
 
-* [Install Python](https://www.python.org/downloads/)
+* [Install Python (Optional)](https://www.python.org/downloads/)
 * Other Python packages we will use: [jupyterlabs](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html), sklearn, matplotlib, plotnine, pandas, numpy, keras, tensorflow.
 
 ## Course Description
@@ -57,13 +59,15 @@ Homework will consist of assignments to reinforce material covered in class, and
 ### Late Days
 Stuff happens. So, you have 3 "extra days" that you can use, no questions asked, throughout the semester for any homework or project (NOT Quizzes and Tests). You must use 1 whole extra day at a time (i.e. you cannot use 3 hours of an extra day for one assignment, and 21 on another). If an assignment was due Monday at 11:59pm and you use 1 late day, the assignment would then be due Tuesday at 11:59pm.
 
-To qualify for an extra day, you must fill out the **Late Days Google Form*  linked on the front page of our course GitHub under Resources *BEFORE the assignment is due*. Because of these "extra days", late work will automatically be penalized a 0.15% per hour (or part of an hour) late. Because of grading deadlines, extra days CANNOT be used during finals week and may not prevent peer feedback during any assignment.
+To qualify for an extra day, you must fill out the **Late Days Google Form*  linked on the front page of our course GitHub under Resources *BEFORE the assignment is due* and add a comment to your Canvas submission stating how many late days you used (e.g. "I used 2 late days"). Because of these "extra days", late work will automatically be penalized a 0.15% per hour (or part of an hour) late. Because of grading deadlines, extra days CANNOT be used during finals week and may not prevent peer feedback during any assignment.
 
 ### Assignments
-All programs must be written in Python unless otherwise specified. Grading will be based on correctness, clarity, elegance of solution, and style (comments, naming conventions, etc.) as well as correctness, completeness, and clarity of written answers.
+All programs must be written in **Python** unless otherwise specified, using the packages covered in this course. Grading will be based on correctness, clarity, elegance of solution, and style (comments, naming conventions, etc.) of code as well as correctness, completeness, and clarity of written answers.
 
 ### Assessment Structure
 There will be weekly quizzes on the lecture material and classwork, which will count toward the Quizzes grade. Missed quizzes may NOT be made up. However, I will drop your lowest 2 quiz scores at the end of the semester, so use these 2 dropped quizzes to account for sick days or missed classes.
+
+You will also do ONE 5-7 minute presentation on a new topic in ML sometime during the semester, which will count towards your participation grade.
 
 There will also be one in-class midterm exam. In-class exams must be taken on the date specified. *I don't believe taking tests while sick demonstrates your true ability, so in the case of a well-documented, unavoidable conflict or illness, I will do my best to accommodate you. You must notify me prior to missing the exam.*
 
