@@ -1,0 +1,258 @@
+---
+title: "Test"
+author: Dr. Chelsea Parlett-Pelleriti
+format:
+    html:
+        code-background: true
+        toc: true
+# engine: knitr
+# jupyter: python3
+---
+
+## Formatting 
+
+# Header 1
+Using a single # gives you a really large header!
+
+## Header 2
+Using two # gives you a slightly smaller header!
+
+### Header 3
+...and on
+
+#### Header 4
+...and on
+
+##### Header 5
+...and on
+
+You may also want to use a bulleted list!
+
+- just
+- like
+- this
+- one
+
+Or maybe an ordered list!
+
+1. like
+2. this
+3. one
+
+To emphasize your point you might want to use *italics* or **bold**. 
+
+To have something appear as code (using a monospace font), surround everything that is code with ticks \`like this\`, so that it shows up `like this`.
+
+If you're the math-y type, you will be happy to know that you can write LaTeX in .qmd files as well! For a full line formula, use two \$\$ dollar signs at the begining and end of your LaTeX:
+
+```
+$$
+\frac{\partial f}{\partial y} = x + 2y
+$$
+```
+
+will appear as 
+$$
+\frac{\partial f}{\partial y} = x + 2y
+$$
+
+For in-line LaTeX just use one \$ in your text. For example, $x + \beta$
+
+You may also want to put a [link](https://www.google.com) to a website for reference. Or, insert an image!
+
+![Caption](https://builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/national/gradient-descent-learning-rate.png)
+
+## Callout Blocks
+One really cool thing about markdown documents like Quarto is that you can use a **callout block**. These are helpful for two reasons:
+
+- call-out blocks highlight sections of text that interrupt the flow of your regular text. Maybe it's a definition, a warning, or a sidenote
+- when rendering your document to HTML, callout blocks are interactive and can be collapsed and opened. 
+
+::: {.callout-warning}
+## My First Callout Block!
+Say things here
+:::
+
+IF you're rendering to HTML (PDFs are not interactive and therefore cannot collapse callout blocks) you can use the `collapse="true"` argument in a callout to make the callout block not show unless the user clicks on it. I use this in my courses to hide material that's useful, but not necessary, like these calculus reviews:
+
+::: {.callout-warning collapse="true"}
+## Derivative Rules
+### The Chain Rule
+The chain rule says that if you want to take the derivative of a composite function (a function applied to another function) the derivative is as follows:
+$$
+\frac{d}{dx}f(g(x)) = f'(g(x))*g'(x)
+$$
+
+e.g. 
+
+If we use these simpler functions 
+$$
+f(x) = x^2
+$$
+$$
+g(x) = 3x + 1
+$$
+
+to make the complex function $f(g(x)) = (3x + 1)^2$ and take the derivative of it, we need $f'(g(x))$ and $g'(x)$:
+$$
+f'(g(x)) = 2(3x + 1)
+$$
+$$
+g'(x) = 3
+$$
+
+Which give us:
+$$
+\frac{d}{d x} (3x + 1)^2 = 2(3x + 1) * 3 = 6(3x + 1) = 18x + 6
+$$
+
+### The Sum/Difference Rule
+The derivative of the sum/difference of two functions is the sum/difference of their derivatives:
+
+$$
+\frac{d}{d x} (f(x) + g(x)) = \frac{d}{d x}f(x) + \frac{d}{d x}g(x)
+$$
+
+$$
+\frac{d}{d x} (f(x) - g(x)) = \frac{d}{d x}f(x) - \frac{d}{d x}g(x)
+$$
+
+### The Constant Rule
+The derivative of a constant multiplied by a function is the constant multiplied by the derivative:
+
+$$
+\frac{d}{d x} (k * f(x)) = k * \frac{d}{d x}f(x)
+$$
+:::
+
+or this question and answer:
+
+::: {.callout-warning}
+## Question
+- We want to *decrease* $f$, so what should we do to $x$ and $y$?
+- Which one should we decrease more? $x$ or $y$?
+:::
+
+::: {.callout-warning collapse="true"}
+## Answer
+We should *decrease* both $x$ and $y$, and we should decrease $y$ more becasue it has a bigger impact than $x$ at this specific point $(2,3)$.
+
+It turns out that we'll take a step in the direction $-\begin{bmatrix} 7 \\ 8 \end{bmatrix}$!
+
+But we'll save the details for CPSC 393...
+:::
+
+## Code Blocks
+One of the most useful things about markdown documents like this is that you can intersperse your writing with code!
+
+For example, this R code:
+
+```{r}
+# reticulate library allows you to run both
+# R and python in the same .qmd
+# file. Normally you do not 
+# need this
+library(reticulate)
+library(ggplot2)
+y <- 10
+x <- y + 5
+
+print(x,y)
+```
+
+or this python code:
+
+```{python}
+x = 10
+y = 2
+print(x + y)
+```
+
+## Notes
+One important thing to remember is that when you render a .qmd file, all the code runs, so if your code does something computationally expensive you may not want to run it in your .qmd file. 
+
+One option is to use the `eval: false` argument when setting up your codeblock:
+
+```{python}
+#| eval: false
+print("Don't Run Me")
+```
+```{python}
+#| eval: true
+print("Do Run Me")
+```
+
+This is useful for showing someone what code you used without needing to show them the output or comupute the code. For example you could show the way you set up your model without building or training it, and then load in a pre-trained model later to show them any output.
+
+```{python}
+#| eval: false
+# This code will not run it's just
+# for show
+import pandas as pd
+import numpy as np
+from plotnine import *
+
+from sklearn.linear_model import LinearRegression # Linear Regression Model
+from sklearn.preprocessing import StandardScaler #Z-score variables
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score #model evaluation
+
+# to save model
+import pickle
+
+df = pd.read_csv("https://raw.githubusercontent.com/cmparlettpelleriti/CPSC392ParlettPelleriti/master/Data/amazon-books.txt",
+                 sep = "\t")
+
+df = df.dropna()
+
+# set up X and y
+predictors = ["List Price", "NumPages", "Weight (oz)", "Thick", "Height", "Width"]
+
+X = df[predictors]
+y = df["Amazon Price"]
+
+# build model
+m = LinearRegression()
+m.fit(X,y)
+
+# save trained model
+with open("model.pkl", "wb") as f:
+    pickle.dump(m,f)
+
+
+```
+
+The above code doesn't run, it's just to show people what you did. 
+
+The code below WILL run. It loads a pre-trained model and actually does the predictions.
+
+```{python}
+# This code will actually run 
+
+import pandas as pd
+import numpy as np
+from plotnine import *
+
+from sklearn.linear_model import LinearRegression # Linear Regression Model
+from sklearn.preprocessing import StandardScaler #Z-score variables
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score #model evaluation
+
+# to save model
+import pickle
+
+df = pd.read_csv("https://raw.githubusercontent.com/cmparlettpelleriti/CPSC392ParlettPelleriti/master/Data/amazon-books.txt",
+                 sep = "\t")
+
+df = df.dropna()
+
+# set up X and y
+predictors = ["List Price", "NumPages", "Weight (oz)", "Thick", "Height", "Width"]
+
+X = df[predictors]
+y = df["Amazon Price"]
+
+
+with open("model.pkl", "rb") as f:
+    m2 = pickle.load(f)
+
+m2.predict(X)[1:10]
+```
