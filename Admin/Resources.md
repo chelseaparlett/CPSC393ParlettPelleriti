@@ -66,6 +66,7 @@ Videos, blogs, and articles that cover topics we talk about in class.
 - [Deconvolution and Checkerboard Artifacts](https://distill.pub/2016/deconv-checkerboard/)
 - [Grad-CAM: Visual Explanations from Deep Networks via Gradient Based Localization](https://arxiv.org/pdf/1610.02391.pdf)
 - [Explaining and Harnessing Adversarial Examples](https://arxiv.org/pdf/1412.6572.pdf)
+- [Demystify Transpose Convolutions](https://medium.com/analytics-vidhya/demystify-transposed-convolutional-layers-6f7b61485454)
 
 ### Autoencoders
 - [Jeremy Jordan: Autoencoders](https://www.jeremyjordan.me/autoencoders/)
