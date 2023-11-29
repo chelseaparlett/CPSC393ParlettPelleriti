@@ -1,0 +1,27 @@
+---
+title: "Final Project"
+author: "YOUR NAME HERE"
+format: pdf
+---
+
+# Introduction
+An introduction should introduce the problem you're working on, give some background and relevant detail for the reader, and explain why it is important. 
+
+
+# Analysis 
+Any exploratory analysis of your data, and general summarization of the data (e.g. summary statistics, correlation heatmaps, graphs, information about the data...). This can also include any cleaning and joining you did. 
+
+# Methods
+Explain the structure of your model and your approach to building it. This can also include changes you made to your model in the process of building it. Someone should be able to read your methods section and *generally* be able to tell exactly what architechture you used. 
+
+# Results
+Detailed discussion of how your model performed, and your discussion of how your model performed.
+
+# Reflection
+Reflections on what you learned/discovered in the process of doing the assignment. Things you would do differently in the future, ways you'll approach similar problems in the future, etc.
+
+
+![My Caption Here](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
