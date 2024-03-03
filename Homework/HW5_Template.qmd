@@ -1,0 +1,24 @@
+---
+title: "Homework 5"
+author: "YOUR NAME HERE"
+format: pdf
+---
+
+# Introduction
+Write a few sentences about the dataset and generative models in general to help non-technical readers understand the problem.
+
+
+# Differences Between Model Architechtures, Inputs/Outputs, Loss(es) and Training
+
+Explain **in detail** the difference between how we generate samples in the 3 models (e.g. what are the differences in the inputs of each model, how they're trained, the types of layers, activations, sizes, the way they generate samples, their loss functions,...etc).
+
+
+# Comparison of Outputs (e.g. quality, ease of getting new samples, interpolation/smoothness)
+
+Your subjective opinions on the differences in the generated images (e.g. quality, blurriness, realism, ability to interpolate, ease of selecting a particular digit...etc).
+
+
+![My Caption Here](/Users/cparlett/Desktop/corgi.jpg){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
