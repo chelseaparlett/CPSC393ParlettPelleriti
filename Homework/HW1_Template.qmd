@@ -1,0 +1,35 @@
+---
+title: "Homework 1"
+author: "YOUR NAME HERE"
+format: pdf
+---
+
+# Analysis 
+Any exploratory analysis of your data, and general summarization of the data (e.g. summary statistics, correlation heatmaps, graphs, information about the data...). Tell the reader about the types of variables you have and some general information about them, Plots and/or Tables are always great. This should also include any cleaning and joining you did. 
+
+If you want a table you can make one with [this website](https://www.tablesgenerator.com/markdown_tables) and paste the markdown table here. For example:
+
+# Methods
+Explain the structure of your models. **Including what hyperparemeter tuning you did, and the hyperparameters chosen. Also discuss what these hyperparameters control about the model**.  Someone should be able to read your methods section and *generally* be able to tell exactly what model you used. However REMEMBER that this should be geared towards an audience who might not understand sklearn code. 
+
+# Results
+Discuss in detail how your models performed based on the metrics you printed. Write this discussion as if you are presenting your results to a CEO/Stakeholder. Compare the performance of your SVM model to the Logistic Regression and KNN model, and provide a justification for which model you want to use "in production".
+
+If you want a table you can make one with [this website](https://www.tablesgenerator.com/markdown_tables) and paste the markdown table here. For example:
+
+| A | B | C | D | E |
+|---|---|---|---|---|
+| a | b | c | d | e |
+| a | b | c | d | e |
+| a | b | c | d | e |
+
+![My Caption Here](https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w=){width=300}
+
+(Note that the `width=300` argument controls how wide your image will be.)
+
+
+# Reflection
+Reflections on what you learned/discovered in the process of doing the assignment. Write about any struggles you had (and hopefully overcame) during the process. Things you would do differently in the future, ways you'll approach similar problems in the future, etc.
+
+
+
