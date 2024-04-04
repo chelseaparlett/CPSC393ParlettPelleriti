@@ -1,0 +1,20 @@
+---
+title: "Homework 4"
+author: "YOUR NAME HERE"
+format: pdf
+---
+
+# Introduction
+An introduction should introduce the problem you're working on, give some background and relevant detail for the reader, and explain why it is important. 
+
+# Analysis 
+Any exploratory analysis of your data, and general summarization of the data (e.g. summary statistics, correlation heatmaps, graphs, information about the data...). This can also include any cleaning and joining you did. 
+
+# Methods
+Explain the structure of your model and your approach to building it. This can also include changes you made to your model in the process of building it. Someone should be able to read your methods section and *generally* be able to tell exactly what architecture you used. 
+
+# Results
+Detailed discussion of how your models performed, and your detailed comparison of your models. Include **all** the sequences you generated in this section.
+
+# Reflection
+Reflections on what you learned/discovered in the process of doing the assignment. Things you would do differently in the future, ways you'll approach similar problems in the future, etc.
